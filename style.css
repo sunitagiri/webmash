@@ -1,0 +1,41 @@
+/*
+    Student Name: GIRI,SUNITA
+     Student_id: 1001339980
+     Project name:Web Mashup-Display House Address on a Map with Weather details
+     Project_no: 2
+     Project due_date :26th october 2016
+     API key:AIzaSyC1kK4hn9Q448HLA83iMO8dXtIygguwvSY
+     Username:sunitagiri
+*/
+
+body {
+ height:100%;
+ background:	url("download.jpg");
+
+}
+
+h1{
+	text-align: center;
+}
+
+
+
+#map {
+		
+		margin-top:19px;
+		float:left; 
+		 margin-right:150px;
+		 border:1px solid black;
+		
+}
+#result  {
+		
+		margin-top:0px;
+		float:left;
+		height:500px;
+		background:		#F5F5F5;
+		/*width:450px;*/
+		overflow-y:auto;
+
+	}
+

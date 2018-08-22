@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<!-- 
+     Student Name: GIRI,SUNITA
+     Student_id: 1001339980
+     Project name:Web Mashup-Display House Address on a Map with Weather details
+     Project_no: 2
+     Project due_date :26th october 2016
+     API key:AIzaSyC1kK4hn9Q448HLA83iMO8dXtIygguwvSY
+     Username:sunitagiri
+      -->
+     
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Address with Weather Details</title>
+    <meta charset="utf-8"/>
+
+    <script type="text/javascript" src="webmash.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1kK4hn9Q448HLA83iMO8dXtIygguwvSY&libraries=places&callback=initMap" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+ 
+   <form id="myform">    
+      <h1>Mash Display of location details</h1>
+      <button type="reset" onclick="cleardiv()">clear</button>
+
+    </form>
+  <body onload="initMap();">
+    <div id="map" style="width: 600px; height: 500px;"></div><br/>
+   
+      <div id="result" ></div>
+ 
+  </body>
+</html>
+
